@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    /*font-size: 14px;
+    letter-spacing: 0.05em;*/
+    color: #000000;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    /*font-size: 14px;
+    letter-spacing: 0.05em;*/
+    color: #000000;
+    text-align: left;
+}
+
+.footer {
+    position: fixed;
+    left: 10px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+  }
