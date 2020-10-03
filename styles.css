@@ -13,7 +13,7 @@ a:hover {
 .nav-container {
     text-align: left;
     position: relative;
-    left: 15vw;
+    left: 10vw;
 }
 
 h1 a {
@@ -41,7 +41,7 @@ h2 {
     letter-spacing: 0.05em;
     color: #5C5B59;
     text-align: left;
-    margin-right: 33%;
+    margin-right: 25%;
 }
 
 .nav-container a {
@@ -64,7 +64,7 @@ h2 {
 
 .footer {
     position: fixed;
-    left: 15vw;
+    left: 10vw;
     bottom: 0;
     color: #5C5B59;
     width: 100%;
