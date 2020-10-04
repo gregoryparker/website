@@ -1,3 +1,12 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
 html,body {
     height: 100%;
     overflow-y: auto;
@@ -80,7 +89,7 @@ h2 {
   }
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 25vw;
     bottom: 0;
     color: #02021A;
