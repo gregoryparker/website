@@ -1,7 +1,7 @@
 html,body {
     height: 100%;
     overflow-y: auto;
-    overflow-x: auto;
+    overflow-x: hidden;
     background-color: #FFFFFF;
     background-repeat: repeat;
 }
@@ -41,7 +41,7 @@ h2 {
     letter-spacing: 0.05em;
     color: #5C5B59;
     text-align: left;
-    margin-right: 25%;
+    margin-right: 10%;
 }
 
 .nav-container img {
@@ -102,7 +102,7 @@ h2 {
     }
     h2{
       font-size: 14px;
-      width: 50%;
+      width: 66%;
     }
     .nav-container img {
       width: 24px;
@@ -127,7 +127,7 @@ h2 {
     .nav-text-links a {
       position: relative;
       z-index: 9;
-      font-size: 18px;
+      font-size: 14px;
       top: 2px;
     }
 }
