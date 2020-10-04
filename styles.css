@@ -1,7 +1,7 @@
 html,body {
     height: 100%;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
     background-color: #FFFFFF;
     background-repeat: repeat;
 }
@@ -44,6 +44,12 @@ h2 {
     margin-right: 25%;
 }
 
+.nav-container img {
+    width: 24px;
+    display: inline-block;
+    padding-top: 16px;
+  }
+
 .nav-container a {
     color: #5C5B59 !important;
     text-decoration: none;
@@ -55,11 +61,22 @@ h2 {
     -moz-transition: 0.5s ease;
     -o-transition: 0.5s ease;
   }
-  
-  .nav-text-links a {
+
+.rectangle {
+    display: inline-block;
+    margin-top: 150px;
+    height: 49px;
+    width: 49px;
+}
+
+.nav-text-links a {
     position: relative;
     z-index: 9;
     font-size: 18px;
+}
+
+.nav-text-links a:hover {
+    color: #B10CA1 !important;
   }
 
 .footer {
@@ -74,3 +91,43 @@ h2 {
     font-size: 16px;
     letter-spacing: 0.05em;
   } 
+
+  @media screen and (max-width: 990px) {
+    .rectangle {
+      width: 25px;
+      height: 25px;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    h2{
+      font-size: 14px;
+      width: 50%;
+    }
+    .nav-container img {
+      width: 24px;
+    }
+    .nav-container {
+      margin-left: -5%;
+    }
+    .portfolio-text a {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 14px;
+    }
+    .portfolio-item img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .nav-container {
+      margin-left: -5%;
+    }
+    .nav-text-links a {
+      position: relative;
+      z-index: 9;
+      font-size: 18px;
+      top: 2px;
+    }
+}
