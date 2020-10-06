@@ -151,9 +151,10 @@ h2 {
       margin-left: -20%;
     }
     .portfolio-text a {
-      margin-left: auto;
+      margin-left: -20vw;
       margin-right: auto;
-      font-size: 14px;
+      top: -26vw;
+      font-size: 20px;
     }
     .portfolio-item img {
       width: 100%;
