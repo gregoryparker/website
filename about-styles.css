@@ -1,0 +1,74 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  hr {
+    width: 23%;
+    margin-left: 0;
+  }
+  
+  .about {
+    position: relative;
+    z-index: 0;
+    left: 25vw;
+    padding-bottom: 75px;
+  }
+
+  .about img {
+    width: 450px;
+  }
+  
+  .about p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    width: 50%;
+    color: #02021A;
+  }
+  
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #B10CA1 !important;
+  }
+  
+  h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    text-align: left;
+    width: 50%;
+    line-height: 25px;
+    color: #02021A;
+  }
+  
+  h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: left;
+    width: 80%;
+    color: #02021A;
+  }
+  
+  .about-links {
+    top: 15px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+
+  @media screen and (max-width: 990px) {
+    .about {
+      width: 150%;
+      left: 5%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .about img{
+        width: 300px;
+    }
+  }
