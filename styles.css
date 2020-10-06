@@ -80,6 +80,38 @@ h2 {
     color: #B10CA1 !important;
   }
 
+
+.portfolio-text a {
+  position: relative;
+  z-index: 9;
+  top: -13.5vw;
+  left: 28vw;
+  text-decoration: none;
+  text-transform: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFF;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.portfolio-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.portfolio-text a:hover {
+  background-color: #B10CA1!important;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+
 .footer {
     display:flex;
     justify-content: left;
