@@ -45,7 +45,6 @@ em {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding-right: 15%;
 }
 
 .clearfix:before,
@@ -142,10 +141,29 @@ h5 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 450px) {
+.inline_image{
+  display:flex;
+}
+
+.picture_container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.picture_container * {
+  flex: 0 1 40%;
+  min-width: 0;
+}
+
+@media screen and (max-width: 990px) {
+  .picture_container * {
+  margin-left: 10vw;
+  }
+
   .project {
-    left: 10vw;
-    width: 90%;
+    width: 95%;
+    left: 5%;
+    width: 100vw;
   }
   hr {
     width: 50%;
@@ -153,6 +171,15 @@ h5 {
 
   .project img {
     width: 100%;
-    margin-left: -40px;
+    margin-left: -10vw;
+    margin-right: 0;
+  }
+
+  .inline_image {
+    margin-left: 5vw;
+  }
+
+  h3 {
+    width: 90%;
   }
 }
