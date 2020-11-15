@@ -1,0 +1,158 @@
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+hr {
+  width: 43%;
+  margin-left: 0;
+  color: #ddd;
+  background-color: #ddd;
+  border-width: 0px;
+  height: 1px;
+}
+
+em {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  color: #02021A;
+  text-align: center!important;
+}
+
+.project {
+  position: relative;
+  padding-top: 25px;
+  z-index: 0;
+  left: 25vw;
+  width: 50%;
+  padding-bottom: 55px;
+}
+
+.floater > * {
+  position: relative;
+  left: 25vw;
+  float:left;
+  margin-right:5px;
+}
+
+.clearfix {
+  *zoom: 1 /* for IE */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-right: 15%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.project p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  width: 90%;
+  color: #02021A;
+  line-height: 1.5em;
+}
+
+.project li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 20px;
+  color: #02021A;
+  width: 90%;
+}
+
+.project img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #B10CA1;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 1em;
+  text-align: left;
+  width: 80%;
+  color: #02021A;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: left;
+  width: 80%;
+  color: #02021A;
+}
+
+.project-links {
+  top: 15px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.project-links a {
+  color: #FFFFFF !important;
+  background: #B10CA1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  padding: 10px 0 10px 0;
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+  margin-right: 3%;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.project a:hover {
+  color: #B10CA1;
+}
+
+.project-links a:hover {
+  color: #B10CA1 !important;
+  background-color: #FFFFFF!important;
+  border: 1px solid #02021A;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+  .project {
+    left: 10vw;
+    width: 90%;
+  }
+  hr {
+    width: 50%;
+  }
+
+  .project img {
+    width: 100%;
+    margin-left: -40px;
+  }
+}
