@@ -151,7 +151,7 @@ h5 {
 }
 
 .picture_container * {
-  flex: 0 1 45%;
+  flex: 0 1 40%;
   min-width: 0;
 }
 
