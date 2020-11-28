@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="portfolio website of gregory parker">
+    <meta property="og:title" content="gregory parker | design portfolio" />
+    <meta property="og:url" content="https://www.gregparker.design/" />
+    <meta property="og:description" content="portfolio website of gregory parker">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:type" content="article" />
+
+    <title>Paszport do Wall Street</title>
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117430461-2"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117430461-2');
+    </script>
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="project-styles.css" /> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,800" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-container">
+
+        <div class="rectangle" style="background-color: #B10CA1;"></div>
+        <div class="rectangle" style="background-color: #6B2FB5;"></div>
+        <div class="rectangle" style="background-color: #0FAAAB;"></div>
+        <div class="rectangle" style="background-color: #2345C0;"></div>
+        
+        <h1><a href="https://www.gregparker.design/about">Hi, I'm Gregory Parker</a></h1>
+        <h2>Your friendly software engineer from New York. I'm passionate about creating delightful and intuitive experiences at the intersection of technology and design.</h2>
+        
+        <a href="https://www.linkedin.com/in/gregrparker"  target="_blank"><img src="images/linkedin.png" alt="linkedin" /></a>
+        <a href="https://github.com/gregoryparker" style="margin-left: 16px;"  target="_blank"><img src="images/github.png" alt="github" /></a>
+        <a href="mailto:gregparker@outlook.com" style="margin-left: 16px;" ><img src="images/email.png" alt="email" /></a>
+        <a href="https://www.instagram.com/gregparker_" style="margin-left: 16px;"  target="_blank"><img src="images/instagram.png" alt="instagram" /></a>
+
+        <br />
+        <br />
+
+        <div class="nav-text-links">
+            <a href="https://www.gregparker.design/">Work</a>
+            <a style="margin-left: 24px;" href="https://www.gregparker.design/about">About</a>
+            <a style="margin-left: 24px;" href="https://drive.google.com/file/d/1mmhkywh4_Ndq9_Vo-ixdy9b1n0d6qKiw/view?usp=sharing" target="_blank">Resume</a>
+        </div>
+    </div>
+
+    <div class="project">
+        <h3>Paszport do Wall Street - Bringing US stock market news to Polish investors</h3>
+        <hr/>
+        <div class="inline_image">
+          <img src="images/paszport/paszport_title_screen.png" alt="Paszport do Wall Street design">
+        </div>
+      </br>
+        <h3>Project Overview</h3>
+        <hr />
+        <p>
+          Paszport do Wall Street is a platform devoted to education and information related to the American stock exchange, created especially for Polish recipients. This project focused on the design and development of a mobile application for Android to accompany the existing web platform.
+        </p>
+        <p>
+          Orbis Systems, Inc. which operates Paszport also offers an electronic trading platform among other financial services, so the Paszport do Wall Street platform acts to add value to existing clients while also bringing in new users to the platform by distributing relevant stock market news.
+        </p>
+        <br />
+        <h3>My Role</h3>
+        <hr />
+        <p>
+          In this project I worked as both designer and developer during two internships with Orbis Systems, Inc. The first between May-August 2015 encompassed the initial design and development of the app with a product manager, and the second in January 2016 focused on building out some additional features with another developer who joined the team.
+        </p>
+        <br />
+        <h3>Challenge</h3>
+        <hr />
+        <p>
+          Design and develop an native Android application to bring the Paszport do Wall Street platform to mobile users. Core features to reach parity with the web version include displaying articles by category, bookmarking, sharing and search functionality.
+        </p>
+        <br />
+        <h3>Conceptualization</h3>
+        <hr/>
+        <p>
+          Starting from a rough idea in late May with the goal of publishing a market-ready app on the Google Play store by late August, my product manager and I knew we had to work fast.
+        </p>
+        <p>
+          Considering the limited time frame for this project, in the conceptualization stage we decided to evaluate our current web offering, examine our competitors and their mobile offerings, and look at current industry trends.
+        </p>
+        <p>
+          In bringing our current web offering to mobile, we wanted to share as much of the core feature set as possible. As Paszport do Wall Street serves mainly as a new reader application, the core feature set included presenting the user the top news articles of the day, giving the user the ability to bookmark any content to reference later, and incorporating native sharing of articles with others. As the writers and creators at Paszport do Wall Street offered a few different types of content including News & Commentary, Education and Video pieces we also wanted to offer that navigation from the home screen as well.
+        </p>
+        <p>
+          Taking a look at our competitors in the space, Yahoo Finance shared similar offerings when it came to US stock market news, and offered a native Android application of their own which shared a lot of the core features we wanted to implement for our users.
+        </p>
+        <div class="picture_container">
+          <img src="images/paszport/yahoo_finance_2015.png" alt="yahoo finance app 2015" class="center" />
+        </div>
+        <p style="text-align: center">
+          <i>Yahoo Finance’s Android application in 2015</i>
+        </p>
+        <p>
+          In particular we felt the tabbed sorting on the top bar between ‘Home’, ‘News’, and ‘Markets’ could be used for our use case to surface the related groups of content at the same level of hierarchy separated by categories of content produced by the writing/creative staff. Additionally providing relevant stock information for companies discussed in the article appeared as a clear value add which we decided to include in our product as well. 
+        </p>
+        <p style="padding-bottom: 30px">
+          But rather than simply implementing these ideas in our own application, we also wanted to expand on these ideas in order to improve the overall user experience. For tabbed sorting, rather than only offering clickable tabs as shown we also felt we could implement swipeable tabs to provide another intuitive form of interaction. In the case of surfacing particular stock data, we saw an opportunity to link a stock ticker where the company is mentioned in the article. This clickable link could then be used to surface the stock price, change and 5 change along with additional performance metadata in a pop up component:
+        </p>
+        <div class ="picture_container">
+          <img src="images/paszport/related_stocks.jpg" alt="related stocks">
+          <img src="images/paszport/stock_info_component.jpg" alt="stock info component">
+        </div>
+        <p style="text-align: center">
+          <i>Final implementation of related stock ticker link (left) & stock info component (right)</i>
+        </p>
+        <p>
+          With Google launching Material Design system less than a year before this project’s start, we had already begun to see widespread adoption of the system and its successes. Seeing this industry trend and the many detailed resources and documentation provided by Google for how to use and implement Material Design using the Android SDK, it was clear to us that this was our best path forward.
+        </p>
+        <p>
+          After a bit of brainstorming we decided to make use of cards to display a bit of information about each news article including a title, image, publish date and a short summary.
+        </p>
+        <div class="picture_container">
+          <img src="images/paszport/article_card.png" alt="article card" class="center"/>
+        </div>
+        <p style="text-align: center">
+          <i>An example article card</i>
+        </p>
+        <p>
+          We also felt that the hamburger menu could be used to reveal our navigation drawer for easy access to secondary components of the application including accessing the user’s saved content, Paszport’s contest offerings, application & user settings, sign in/registration, and miscellaneous content.
+        </p>
+        <br />
+        <h3>Development</h3>
+        <hr/>
+        <p>
+          With a relatively clear idea in mind of what we wanted to ship, now it was time to build! This took up the majority of my time in the internship, and being new to Android development this included a lot of reading up on Google’s Android SDK (including understanding the activity lifecycle and callbacks, how fragments work, etc.)  and Material Design documentation, reading blog posts detailing implementation for particular features and stack overflow troubleshooting. 
+        </p> 
+        <p style="padding-bottom: 30px">
+          The first step I took was to create a working application “shell” containing a blank view, hamburger menu, and navigation bar. I had also selected some potential UI assets to populate the nav bar and gave some sample categories for content types. This was done to start integrating with Paszport’s API early on so that we could quickly prototype and surface different types of content, passing different parameters to the API depending on which category was selected.
+        </p> 
+        <div class ="picture_container">
+          <img src="images/paszport/first_container.jpg" alt="first container">
+          <img src="images/paszport/second_attempt_nav.png" alt="second attempt nav bar">
+        </div>
+        <p style="text-align: center">
+          <i>A screen from an early “shell” application featuring the navigation bar (left). Fast followed improvements to highlight the currently selected nav bar item (right)</i>
+        </p>
+        </br>
+        <p style="padding-bottom: 30px">Next came making a call to the API to surface article content, reading the result, and displaying selected fields in a list view as an early prototype of our cards concept. The first iteration of this didn’t appear in the form of cards but rather was an attempt to successfully parse data from the API response and display it properly formatted in a preliminary newsfeed, which allowed for a vertically scrollable collection of views.        </p>
+        <div class ="picture_container">
+          <img src="images/paszport/populating_list_view_images.png" alt="first attempt at cards">
+          <img src="images/paszport/first_attempt_cards.png" alt="fast following improvements to cards">
+        </div>
+        <p style="text-align: center">
+          <i>Early prototype of the newsfeed using “cards” which would later be further realized by altering the styling on the elements of the list view (left). Fast following improvements on the formatting for cards (right)          </i>
+        </p>
+        <p>
+          Another major milestone was creating a view for and properly formatting and displaying the article’s content. As the response to the API contained HTML tags, these needed to be parsed and handled by the application in order to reflect styling like paragraphs, line breaks, links, italics, bold, etc. as these needed to be translated into another form which Android could understand.
+        </p>
+        <div class="picture_container">
+          <img src="images/paszport/formatting_text.png" alt="formatting text" class="center"/>
+        </div>
+        <p style="text-align: center">
+          <i>Development in progress - formatting article content. Here some tags like breaks, images, and paragraphs are handled, but links we’re still being troubleshooted at this point</i>
+        </p>
+        <p>
+          One challenge I faced was in implementing support for notifications when new articles were published. I found that Android would periodically perform some automated cleanup of processes running in the background and so I needed to find a way to keep the process from being killed by the operating system in order to keep serving notifications even if the user had not used the app in a while.
+        </p>
+        <p>
+          Handling search functionality involved taking the input provided by the user, making a call to Paszport’s search endpoint and passing the input in the payload of the request, displaying a “searching..” message while processing the request, and surfacing the results in a view on top of the current view, or a “not found” message in case the query did not return any results.
+        </p>
+        <p>
+          Sharing and refreshing came out of the box relatively easily thanks to being handled natively using Android Sharesheet and Swipe-to-Refresh, augmenting our existing ListView with a parent SwipeRefreshLayout. This helped us two-fold in decreasing development time and using interactions which users of the OS were already familiar with.
+        </p>
+        <div class ="picture_container">
+          <img src="images/paszport/native_sharesheet_adjusted.png" alt="native sharesheet">
+          <img src="images/paszport/native_swipe_to_refresh_adjusted.gif" alt="native swipe-to-refresh">
+        </div>
+        <p style="text-align: center">
+          <i>Android’s native Sharesheet (left) and Swipe-to-Refresh (right)</i>
+        </p>
+        <p>
+          Bookmarks support involved using SQLite to store unique article metadata which we could use to retrieve all article information. The same could be done for favorite stocks using the ticker symbol.
+        </p>
+        <p>
+          In accounting for future product strategy, I also designed the application structure in such a way that supports multiple languages for expansion into other markets in the future. This was done by using xml files for all of the navigation text and all text fields stored locally on the application, as well as the device’s locale. For version 1.0 this supported both English and Polish, which is why the menu titles and navigation all appear in English on my device, while the application content is currently only available in Polish. If I had set my device’s locale to Poland, these values would appear using their Polish counterpart as shown below:
+        </p>
+        <div class ="picture_container">
+          <img src="images/paszport/english_locale_adjusted.png" alt="english locale">
+          <img src="images/paszport/polish_locale_adjusted.png" alt="polish locale">
+        </div>
+        <p style="text-align: center">
+          <i>Application run with device set to English locale (left) vs Polish locale (right)</i>
+        </p>
+        </br>
+        <h3>Solution</h3>
+        <hr/>
+        <p>
+          Once the core functionality of the application was built out, I focused on cleaning up the presentation and adding a layer of polish. The nav bar menu items were replaced with their appropriate content and screens built out, and the sorting of article content was moved to the tabbed menu navigation in the main view. Due to time constraints for the v1.0 launch, a WebView was initially used to handle sign in and registration, deferring to the mobile responsive web page, but containerized within the native application. Some additional screens were built out for the About Us and Contact pages, as well as a link to the privacy policy hosted on the Paszport website.
+        </p>
+        <p>
+          With this solution, our users could easily catch up on the latest stock market news, share articles with colleagues, save their favorite stories and stock tickers for later reading or tracking respectively, and search for any news content they wish.
+        </p>
+        <br />
+        <div class ="picture_container">
+          <img src="images/paszport/cards.jpg" alt="article cards on home page">
+          <img src="images/paszport/navigation_drawer.jpg" alt="final navigation drawer">
+        </div>
+        <p style="text-align: center">
+          <i>Final ListView display with updated styling for article cards and using tabbed content sorting (left) and final implementation of navigation bar (right)</i>
+        </p>
+        <div class="picture_container">
+          <img src="images/paszport/swipeable_tabs_gif.gif" alt="swipeable tabs" class="center">
+        </div>
+        <p style="text-align: center">
+          <i>Animated gif displaying final implementation of swipeable tabs by content type</i>
+        </p>
+        <div class ="picture_container">
+          <img src="images/paszport/saved_stocks.jpg" alt="saved stocks">
+          <img src="images/paszport/saved_articles.jpg" alt="saved articles">
+        </div>
+        <p style="text-align: center">
+          <i>Displaying bookmarked stocks (left) and bookmarked articles (right)</i>
+        </p>
+        <div class="picture_container">
+          <img src="images/paszport/search_results.jpg" alt="search results" class="center">
+        </div>
+        <p style="text-align: center">
+          <i>Displaying article search results</i>
+        </p>
+        <div class="picture_container">
+          <img src="images/paszport/related_stocks.jpg" alt="related stocks" class="center">
+        </div>
+        <p style="text-align: center">
+          <i>Related stocks displayed in a list view at the bottom of an article</i>
+        </p>
+        <p>
+          By my last day in the office in August I had published the finished product to the Google Play Store, ready to receive user feedback for us to iterate on. It is still live today many versions later, the latest of which can be found <a href="https://play.google.com/store/apps/details?id=ws.paszport.orbis.mobile">here</a>.
+        </p>
+        </br>
+        <h3>Project Retrospective</h3>
+        <hr/>
+        <p>
+          This project was completed in my first internship as a software engineer in the technology industry, and although I walked in only having taken two computer science classes and no knowledge of Android development, I was able to walk away with many new skills and a project I’m still proud of to this day. This internship experience solidified the idea in my mind that I could learn so much on the fly and be able to apply that knowledge to solve interesting real world problems. 
+        </p>
+        <p>
+          Of course as a version 1.0 product launch, there was still much work to be done and features to be added, and luckily I got the chance to do some of this feature development alongside another engineer who joined the team when I got invited back for a winter internship. Nonetheless being able to have a finished product for all (Android owning) my friends and family to download and install for themselves was an incredible feeling.. even if they didn’t quite understand Polish.
+        </p>
+        </br>
+        <h3>Thank you for reading!</h3>
+      </div>
+      
+
+<footer class="footer">
+    Made with 💖 by Greg
+</footer>
+</body>
+</html>
