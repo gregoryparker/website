@@ -183,4 +183,8 @@ h5 {
   h3 {
     width: 90%;
   }
+
+  .center {
+    padding-left: 10%;
+  }
 }
