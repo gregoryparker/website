@@ -65,6 +65,9 @@ body {
       width: 150%;
       left: 5%;
     }
+    .about p {
+      width: 55%;
+    }
   }
 
   @media screen and (max-width: 480px) {
