@@ -104,10 +104,10 @@
           <i>Yahoo Finance’s Android application in 2015</i>
         </p>
         <p>
-          In particular we felt the tabbed sorting on the top bar between ‘Home’, ‘News’, and ‘Markets’ could be used for our use case to surface the related groups of content at the same level of hierarchy separated by categories of content produced by the writing/creative staff. Additionally providing relevant stock information for companies discussed in the article appeared as a clear value add which we decided to include in our product as well. 
+          In particular we felt the tabbed navigation bar could be used in our use case to surface related groups of content at the same level of hierarchy, separated by category of content produced by the Paszport writing and creative staff. Additionally inspired by Yahoo Finance, providing relevant stock information for companies discussed in the article appeared as a clear value add which we decided to include in our product as well. 
         </p>
         <p style="padding-bottom: 30px">
-          But rather than simply implementing these ideas in our own application, we also wanted to expand on these ideas in order to improve the overall user experience. For tabbed sorting, rather than only offering clickable tabs as shown we also felt we could implement swipeable tabs to provide another intuitive form of interaction. In the case of surfacing particular stock data, we saw an opportunity to link a stock ticker where the company is mentioned in the article. This clickable link could then be used to surface the stock price, change and 5 change along with additional performance metadata in a pop up component:
+          Rather than simply implementing these ideas in our own application, we also wanted to expand on them in order to improve the overall user experience. For tabbed navigation, rather than only offering clickable tabs as in Yahoo Finance, we also felt we could implement swipeable tabs to provide multiple intuitive forms of interaction. In the case of surfacing particular stock data, we saw an opportunity to link stock tickers wherever a company was mentioned in an article. This clickable link could then be used to surface the stock price, change and 5 change along with additional performance metadata in a pop up component, the final implementation of which can be seen below:        
         </p>
         <div class ="picture_container">
           <img src="images/paszport/related_stocks.jpg" alt="related stocks">
@@ -148,7 +148,7 @@
           <i>A screen from an early “shell” application featuring the navigation bar (left). Fast followed improvements to highlight the currently selected nav bar item (right)</i>
         </p>
         </br>
-        <p style="padding-bottom: 30px">Next came making a call to the API to surface article content, reading the result, and displaying selected fields in a list view as an early prototype of our cards concept. The first iteration of this didn’t appear in the form of cards but rather was an attempt to successfully parse data from the API response and display it properly formatted in a preliminary newsfeed, which allowed for a vertically scrollable collection of views.        </p>
+        <p style="padding-bottom: 30px">As for surfacing article content, I implemented calls to Paszport’s existing API to request the data, read the result, and display selected fields in a ListView as an early prototype of our cards concept. The first iteration of this didn’t appear in the form of cards but rather was an attempt to successfully parse data from the API response and display it in a preliminary newsfeed, which allowed for a vertically scrollable collection of views in the form of news articles.</p>
         <div class ="picture_container">
           <img src="images/paszport/populating_list_view_images.png" alt="first attempt at cards">
           <img src="images/paszport/first_attempt_cards.png" alt="fast following improvements to cards">
