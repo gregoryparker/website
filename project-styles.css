@@ -151,16 +151,19 @@ h5 {
 
 .inline_image{
   display:flex;
+  align-items: flex-start;
 }
 
 .inline_image_mid{
   display:flex;
+  align-items: flex-start;
   height: 60%;
   width: 60%;
 }
 
 .picture_container{
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
 }
 
