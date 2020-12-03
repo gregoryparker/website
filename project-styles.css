@@ -156,6 +156,11 @@ h5 {
   min-width: 0;
 }
 
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
 @media screen and (max-width: 990px) {
   .picture_container * {
   margin-left: 10vw;
@@ -186,5 +191,12 @@ h5 {
 
   .center {
     padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  iframe {
+    width: 375px;
+    height: 215px;
   }
 }
