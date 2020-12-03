@@ -198,6 +198,11 @@ iframe {
     margin-left: 5vw;
   }
 
+  .inline_image_mid {
+    height: 90%;
+    width: 90%;
+  }
+
   h3 {
     width: 90%;
   }
